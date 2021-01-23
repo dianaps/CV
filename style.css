@@ -24,14 +24,16 @@ h3, a{
   position: relative;
   padding-top: 100px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .middle-container{
-  /*background-color: red;*/
+  background-color: white;
 }
 
 .bottom-container{
-  /*background-color: blue;*/
+  background-color: #66BFBF;
+  padding: 25px;
 }
 
 .top{
@@ -48,27 +50,94 @@ h3, a{
 }
 
 .mountain{
-  margin: auto auto 0;
+  margin: 5% auto 0 auto;
 }
 
 .cloud-top{
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 25%;
 }
 
 .cloud-bottom{
   position: absolute;
-  top: 200px;
-  left: 30%;
+  top: 350px;
+  left: 15%;
 }
 
 .span1{
   text-decoration: underline;
 }
 
-.skill-row{
+.skill-row1{
   width: 50%;
   margin: 100px auto;
   text-align: left;
+}
+
+.skill-row2{
+  width: 50%;
+  margin: 100px auto;
+  text-align: right;
+}
+
+.logo{
+  width: 15%;
+}
+
+.coding-skill{
+  width: 165px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.guittar-skill{
+  width: 165px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 20px;
+}
+
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px 25px 50px 25px;
+}
+
+.footer-text{
+  color: #EAF6F6;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Yusei Magic', sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	padding:14px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin-bottom: 100px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: #9ddfd3;
+  height:2px;
+  width: 30%;
+  border-width: 10px;
 }
