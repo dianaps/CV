@@ -1,0 +1,74 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  background-color: #bbf1fa;
+  text-align: center;
+}
+
+div {
+  margin: 0;
+}
+
+h1, h2{
+  font-family: 'Yusei Magic', sans-serif;
+  margin: 0;
+  color: #66BFBF;
+}
+
+h3, a{
+  color: #11999E;
+  font-weight: normal;
+}
+
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.middle-container{
+  /*background-color: red;*/
+}
+
+.bottom-container{
+  /*background-color: blue;*/
+}
+
+.top{
+  padding: 50px 0;
+  font-size: 400%; /*dynamic size: (100% is 16px = 1em)*/
+  line-height: 2;
+}
+
+.h3top{
+  font-weight: bold;
+  font-family: 'Yusei Magic', sans-serif;
+  margin: 0;
+  color: #66BFBF;
+}
+
+.mountain{
+  margin: auto auto 0;
+}
+
+.cloud-top{
+  position: absolute;
+  top: 50px;
+  right: 25%;
+}
+
+.cloud-bottom{
+  position: absolute;
+  top: 200px;
+  left: 30%;
+}
+
+.span1{
+  text-decoration: underline;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
